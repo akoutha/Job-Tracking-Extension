@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+
+</head>
+<body>
+     <div style="text-align:center;">
+       <button id="authorize_button" style="display: none;">Authorize</button>
+    <button id="signout_button" style="display: none;">Sign Out</button>
+    <form>
+        <p id="status"></p>
+        <h1> Welcome to Job Tracker </h1><br>
+        <h3>Enter Job Info:</h3>
+        Company: <br><input type="text" id="company" name="company" value=""><br>
+        Position: <br><input type="text" id="position" name="pName" value=""><br>
+      <!--  Date:<br><input type = "text" id="date" name="date" value=""><br>-->
+        Email:<br><input type = "text" id="email" name="email" value=""><br>
+        Medium:<br><input type = "text" id="medium" name="medium" value=""><br>
+
+
+         <!--Interest:<br><select name="interest">
+                  <option value="low">low</option>
+                  <option value="medium">medium</option>
+                  <option value="high">high</option>
+                </select><br>-->
+      <!-- Recruiter Name: <br><input type="text" name="recruiter" value=""><br>-->
+       Link:<br><input type="text" id="link" name="link" value=""><br>
+
+    </form>
+    <!--<br><button class = "action" onclick="getInfo">Add Job!</button><br>-->
+    <br><div id="content"></div><br>
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+  <!--  <script src="init.js"></script>-->
+    <script src="popup.js"></script>
+
+
+
+</body>
+</html>

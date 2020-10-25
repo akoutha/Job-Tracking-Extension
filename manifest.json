@@ -1,0 +1,22 @@
+{
+  "name": "RecrutingApp",
+  "version": "1.0",
+  "description": "Uses Google's Spreadsheet API",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "RecruitingApp",
+    "default_popup": "popup.html"
+  },
+  "oauth2": {
+    "client_id":"51934230420-43rpia2bfc88jeocv3l34b7cgifrqkva.apps.googleusercontent.com",
+    "scopes":["https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/drive"]
+  },
+  "permissions": [
+        "identity",
+        "tabs",
+        "storage"
+    ],
+  "content_security_policy": "script-src 'self' https://apis.google.com/; object-src 'self'",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0bmpF1+/QubLtGEo00c6SHpdOEdzc2B2HDw2yxtSzSO4MHh2+xDAxCjtt15Q1lYRPm5aNoLRUflaXbNS+08wGmivPjBdMRtS/LbT+hjC9cXmfH58H2tAxbm6pnZoNNpFlYbqU6LcAX+DQkchkhIsVDYv0WFOHBKCjznoBw4iqL/HmFNxeoQHcv7i2nO2BSdOrfLFqTIQgb4Ezw6ZMgbhJmDHPv3YrLXQuq9B+GLON/RKe/y5SODqs6MtBu3fX2LjKzM7pewUG4nGGOqxKDZKwZZaLrD/rw9azMIRzN4NKaf+wKNdR7URBTW1pw/DAascyoq9mbJ9+3t8PO48P7Mp+wIDAQAB"
+}
